@@ -1,0 +1,114 @@
+@charset "EUC-KR";
+@import url('https://cdn.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+body {
+	background-color: #FFCA28; 
+/**	background-color: #FFF9C4; **/
+/**	background-color: #FFAB00; **/
+	font-family: 'Galmuri9';
+}
+
+table{
+	border-spacing: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#homeTitleTable{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;	
+	font-family: 'Galmuri7';
+	font-weight: 700;
+	font-size: 90px;
+	text-shadow: 4px 4px 4px #E0E0E0;
+	
+}
+
+#homeMenuTable{
+	width: 1200px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0px;
+	border-bottom: #000000 solid 2px;
+	box-shadow: 1px 2px 2px 2px #263238;
+	background-color: #FFCA28;
+}
+
+#homeMenuTable2{
+	width: 100%;
+	border-spacing: 0px;
+	
+}
+
+#homeMenuTable td{
+	height: 40px;
+}
+
+#homeMenuTable2 a{
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#homeMenuTable2 a:hover{
+	color:#616161;
+}
+
+#homeMenuTable2 a:active{
+	color:#616161;
+}
+#homeContentTable {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 20px;
+}
+
+#homeLoginTable{
+	width:1200px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 30px;
+}
+
+#homeLoginTable2{
+	width:100%;
+}
+
+button{
+	font-family: 'Galmuri9';
+	background-color: #FFD740;
+	border:none;
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+}
+
+button:hover{
+	color:#616161;
+}
+
+button:active{
+	color:#616161;
+}
+
+#joinDiv{
+	background-color: #FFD740;
+	width: 60px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#joinDiv:hover{
+	color:#616161;
+}
+
+#joinDiv:active{
+	color:#616161;
+}

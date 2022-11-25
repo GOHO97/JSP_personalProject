@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="hoPool"
+		type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		username="lp2011s"
+		password="rudgh6401"
+		url="jdbc:oracle:thin:@192.168.0.100:1521:xe"
+		maxTotal="500"
+		maxIdle="100"
+	/>
+</Context>
